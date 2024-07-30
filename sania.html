@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker Dashboard</title>
+    <link rel="stylesheet" href="sania.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Fitness Tracker Dashboard</h1>
+        </header>
+        <main>
+            <section class="activities">
+                <h2>Activities</h2>
+                <ul id="activities-list">
+                    <!-- Activities will be dynamically added here -->
+                </ul>
+                <button id="add-activity-btn">Add Activity</button>
+            </section>
+            <section class="statistics">
+                <h2>Statistics</h2>
+                <div id="statistics-content">
+                    <!-- Statistics will be dynamically updated here -->
+                </div>
+            </section>
+            <section class="workout-plans">
+                <h2>Workout Plans</h2>
+                <select id="workout-plans-dropdown">
+                    <option value="">Select a workout plan</option>
+                    <option value="plan1">Push-Ups</option>
+                    <option value="plan2">Squats</option>
+                    <option value="plan3">Planks</option>
+                    <option value="plan4">Sit-Ups</option>
+                    <option value="plan5">Jumping Jacks</option>
+                    <option value="plan6">Pull Ups</option>
+                    <option value="plan7">Dips</option>
+                    <option value="plan8">Leg Raises</option>
+                    <option value="plan9">Shoulder Press</option>
+                    <option value="plan10">Deadlifts</option>
+                    <option value="plan11">Chest Press</option>
+
+                </select>
+                <ul id="workout-plans-list">
+                    <!-- Workout plans will be dynamically added here -->
+                </ul>
+                <button id="add-workout-plan-btn">Add Workout Plan</button>
+            </section>
+        </main>
+    </div>
+    <script src="sania.js"></script>
+</body>
+
+</html>
